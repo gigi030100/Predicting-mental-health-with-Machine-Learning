@@ -48,6 +48,28 @@ The training subset will be further split into training and validation set using
 ## Data normalisation
 As most of the features exhibited outliers and differing range of values, Robust Scaler was used on all numerical features except parental education and household income to mitigate the influence of outliers and the varied range of values.
 
-# Machine learning models
+# Building machine learning models
+For my project, I incorporated 3 machine learning models:
+1. Extreme Gradient Boosting
+2. Support Vector Machine 
+3. K-Nearest neigbours
 
+## Model validation and optimisation
+The default hyperparameters of these 3 machine learning models were validated using the validation set. After validation, hyperparameters of all 3 models were also optimised using the validation set. To identify the most optimal combinations of hyperparameters, GridSearchCV with 5-fold cross validation from sklearn library will be utilised for its ability to display high precision in learning. This works by assessing predictive performance via iterating over all possible combinations of hyperparameter values predefined within the search space. Using the optimised hyperparameter identified by GridSearchCV, all 3 models was re-trained on a combination of training and validation dataset to ensure optimised models were developed on unseen data to reduce overfitting.
+
+## Model evaluation
+The optimised models were evaluated on the testing set to check their generalisability to unseen data. The accuracy, precision, recall, and F1-score were used as evaluation metrics to provide a more comprehensive picture of the models’s performances.
+
+<img width="500" alt="Screenshot 2025-01-28 at 12 36 36" src="https://github.com/user-attachments/assets/1e7f0d86-e85a-4784-9b27-8676dc0f4557" />
+
+Graph above shows the the performance of the 3 models before hyperparameter tuning.
+
+<img width="439" alt="Screenshot 2025-01-28 at 12 39 03" src="https://github.com/user-attachments/assets/086d1ff0-f475-4360-90e4-d75b023e652e" />
+
+Graph above shows the performance of the 3 models after hyperparameter tuning. 
+
+The XGBoost classifier with optimised hyperparameters remained the top performing model compared to the other two ML models, with each performance metric all exceeding 0.95.
+
+# Conclusion
+In summation, this study demonstrates the competence of ML, integrated with human knowledge and established screening instruments, as a screening tool for common mental disorders. Given the high predictive performances of all three models developed in this project, with XGBoost being the best, this depicts important implications on the early identification of high risk individuals. By doing so, early interventions are implemented, thus preventing symptoms from exacerbating further.
 
