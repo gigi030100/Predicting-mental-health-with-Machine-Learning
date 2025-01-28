@@ -6,6 +6,7 @@ My project aims to utilise machine learning techniques to identify early adolesc
 
 # Methodology
 <img width="460" alt="Screenshot 2025-01-28 at 12 05 56" src="https://github.com/user-attachments/assets/e01b961f-6c2f-4b9f-a539-729b18e19b58" />
+
 Image above shows a flowchart for building machine learning model. 
 
 ## Dataset
@@ -27,11 +28,14 @@ Household income was divided into 5 categories: (1) bottom quintile: (2) second 
 #### Strengths and Difficulties Questionnaire. 
 An emotional and behavioural screening tool aimed to evaluate 17 year-old's mental health. Scores were rated by parents using a 3-point likert scale. The scale was designed to measure 5 subscales (emotional symptoms, conduct problems, hyperactivity/Inattention, peer relationship problems, and prosocial behaviour). Mental health was operationalised by summing up the scores from all subscales, except prosocial behaviour, to derive the total difficulties score. This score was then transformed into binary classes (high-risk vs low risk) using a threshold score of 17 which indicates abnormality (Goodman, 1997).
 
+## Data pre-processing and Exploratory data analysis
+After downloading and merging the dataset, the data types of each column was corrected to ensure the dataset is properly pre-processed. Data imputation was also used to combat missing values to preserve the number of cohort members analysed. However, as our dataset possesses a mixture of data types, multiple imputation and mode imputation was used to replace missing float/integer and categorical data types respectively. 11,261 duplicated rows were also removed to reduce data redundancy, leaving us with 28,912 total sample. Exploratory data analysis was also implemented to extract data patterns and obtain insight.
 
+<img width="472" alt="Screenshot 2025-01-28 at 12 12 29" src="https://github.com/user-attachments/assets/15d40a54-c802-45e4-a457-28a3fd14f99d" />
 
+<img width="673" alt="Screenshot 2025-01-28 at 12 13 07" src="https://github.com/user-attachments/assets/9f8b078a-8f5d-4f00-a603-9bec1709dc3a" />
 
-
-
+<img width="304" alt="Screenshot 2025-01-28 at 12 13 36" src="https://github.com/user-attachments/assets/b6614e3e-d53b-4da8-ab76-92a4be620d2b" />
 
 
 
