@@ -9,6 +9,10 @@ My project aims to utilise machine learning techniques to identify early adolesc
 ## Dataset
 The Millenium Cohort Study was used (URL: https://beta.ukdataservice.ac.uk/datacatalogue/series/series?id=2000031) which contains longitudinal data from age 14 to 17.
 
+<img width="460" alt="Screenshot 2025-01-28 at 12 05 56" src="https://github.com/user-attachments/assets/e01b961f-6c2f-4b9f-a539-729b18e19b58" />
+
+Image above shows a flowchart for building machine learning model. 
+
 ### Predictor variables at the age of 14
 #### 1. Parent-reported Kessler Psychological Distress Scale.
 This 6-item measure aims to capture non-specific psychological distress as a form of indication for mental illness among the general population using a scale of 1-5 to measure parental mental illness.
@@ -24,3 +28,15 @@ Household income was divided into 5 categories: (1) bottom quintile: (2) second 
 ### Target variable at the age of 17
 #### Strengths and Difficulties Questionnaire. 
 An emotional and behavioural screening tool aimed to evaluate 17 year-old's mental health. Scores were rated by parents using a 3-point likert scale. The scale was designed to measure 5 subscales (emotional symptoms, conduct problems, hyperactivity/Inattention, peer relationship problems, and prosocial behaviour). Mental health was operationalised by summing up the scores from all subscales, except prosocial behaviour, to derive the total difficulties score. This score was then transformed into binary classes (high-risk vs low risk) using a threshold score of 17 which indicates abnormality (Goodman, 1997).
+
+
+
+
+
+
+
+
+
+
+
+
