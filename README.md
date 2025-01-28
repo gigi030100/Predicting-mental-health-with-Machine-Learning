@@ -37,6 +37,17 @@ After downloading and merging the dataset, the data types of each column was cor
 
 <img width="500" alt="Screenshot 2025-01-28 at 12 14 51" src="https://github.com/user-attachments/assets/da622b88-b3d6-4c62-b334-0736ebdc553d" />
 
+As you can see above an unbalanced proportion of high and low risk of mental health issues, Synthetic Minority Over-sampling Technique for Nominal and Continuous features (SMOTE-NC) was incorporated which oversamples the minority class.
 
+Categorical data, such as parental education and household income, was converted into numerical format as machine learning models often require numerical data. For this, label encoding was employed as our categorical variable exhibits an inherent order.
+
+## Data splitting
+The dataset was also split into training and testing subset using 80:20 ratio respectively. 
+The training subset will be further split into training and validation set using 90:10 ratio respectively, leaving us with 3 data subsets in total (training, validation, and testing set).
+
+## Data normalisation
+As most of the features exhibited outliers and differing range of values, Robust Scaler was used on all numerical features except parental education and household income to mitigate the influence of outliers and the varied range of values.
+
+# Machine learning models
 
 
