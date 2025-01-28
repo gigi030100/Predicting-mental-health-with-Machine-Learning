@@ -10,5 +10,16 @@ My project aims to utilise machine learning techniques to identify early adolesc
 The Millenium Cohort Study was used (URL: https://beta.ukdataservice.ac.uk/datacatalogue/series/series?id=2000031) which contains longitudinal data from age 14 to 17.
 
 ### Predictor variables at the age of 14
-1. Parent-reported Kessler Psychological Distress Scale.
-   6-item measure aims to capture non-specific psychological distress as a form of indication for mental illness among the general population using a scale of 1-5 to measure parental mental illness.
+#### Parent-reported Kessler Psychological Distress Scale.
+This 6-item measure aims to capture non-specific psychological distress as a form of indication for mental illness among the general population using a scale of 1-5 to measure parental mental illness.
+#### Parental education
+This is obtained by looking at the highest national vocational qualification gained across all sweeps.
+#### Parent-reported Alcohol use disorder idenfiication test.
+This 5-item measure acts as a screening tool for identifying those with alcohol use disorders.
+#### Parent-child relationship
+This was captured based on cohort members and parent's rating of closeness and frequency of arguments with each other.
+#### Household income.
+Household income was divided into 5 categories: (1) bottom quintile: (2) second quintile: (3) third quintile: (4) fourth quintile: (5) top quintile, with each quintile representing 20% of the population. I.e., bottom quintile contains 20% households with the lowest income.
+
+### Target variable at the age of 17
+Strengths and Difficulties Questionnaire. 
