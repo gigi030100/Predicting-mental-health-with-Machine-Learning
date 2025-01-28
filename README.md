@@ -5,13 +5,11 @@ My project aims to utilise machine learning techniques to identify early adolesc
 ![Screenshot 2025-01-28 at 11 41 15](https://github.com/user-attachments/assets/9da55b92-5ef3-458c-a87a-347a9f455515)
 
 # Methodology
+<img width="460" alt="Screenshot 2025-01-28 at 12 05 56" src="https://github.com/user-attachments/assets/e01b961f-6c2f-4b9f-a539-729b18e19b58" />
+Image above shows a flowchart for building machine learning model. 
 
 ## Dataset
 The Millenium Cohort Study was used (URL: https://beta.ukdataservice.ac.uk/datacatalogue/series/series?id=2000031) which contains longitudinal data from age 14 to 17.
-
-<img width="460" alt="Screenshot 2025-01-28 at 12 05 56" src="https://github.com/user-attachments/assets/e01b961f-6c2f-4b9f-a539-729b18e19b58" />
-
-Image above shows a flowchart for building machine learning model. 
 
 ### Predictor variables at the age of 14
 #### 1. Parent-reported Kessler Psychological Distress Scale.
