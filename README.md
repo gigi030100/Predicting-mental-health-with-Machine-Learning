@@ -7,4 +7,8 @@ My project aims to utilise machine learning techniques to identify early adolesc
 # Methodology
 
 ## Dataset
-The Millenium Cohort Study was used (URL: https://beta.ukdataservice.ac.uk/datacatalogue/series/series?id=2000031) which contains longitudinal data from age 14 to 17. 
+The Millenium Cohort Study was used (URL: https://beta.ukdataservice.ac.uk/datacatalogue/series/series?id=2000031) which contains longitudinal data from age 14 to 17.
+
+### Predictor variables at the age of 14
+1. Parent-reported Kessler Psychological Distress Scale.
+   6-item measure aims to capture non-specific psychological distress as a form of indication for mental illness among the general population using a scale of 1-5 to measure parental mental illness.
