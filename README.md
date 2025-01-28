@@ -35,9 +35,7 @@ After downloading and merging the dataset, the data types of each column was cor
 
 <img width="673" alt="Screenshot 2025-01-28 at 12 13 07" src="https://github.com/user-attachments/assets/9f8b078a-8f5d-4f00-a603-9bec1709dc3a" />
 
-<img width="600" alt="Screenshot 2025-01-28 at 12 13 36" src="https://github.com/user-attachments/assets/b6614e3e-d53b-4da8-ab76-92a4be620d2b" />
-
-
+<img width="500" alt="Screenshot 2025-01-28 at 12 14 51" src="https://github.com/user-attachments/assets/da622b88-b3d6-4c62-b334-0736ebdc553d" />
 
 
 
